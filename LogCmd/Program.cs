@@ -37,7 +37,8 @@ namespace LogCmd
                 Arguments = "/C " + string.Join(" ", args)
             };
 
-            processArguments.Arguments = "/C test.bat";
+            //for testing
+            //processArguments.Arguments = "/C test.bat";
 
             process.StartInfo = processArguments;
             process.Start();
